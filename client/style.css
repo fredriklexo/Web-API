@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logotype {
+    font-size: 100px;
+}
+
+.myFavoriteBtn{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.myFavoriteBtn h5{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.cardContainer{
+    margin: 30px;
+    width: 400px;
+    min-height: 700px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;  
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+}
+.img {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.inputfield{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 3px 10px;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.h_container{
+    background-color: #cac7c7;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    display: inline-block;
+    width:35px;
+    height:35px;
+    text-align:center;
+    line-height:45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+#heart{
+    font-size: 25px;
+}
+#heart:hover{
+    color:red;
+    
+}
+
+
+.btnStyle{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.gearIcon{
+    cursor: pointer;
+    width:30px;
+    height:30px;
+    text-align:center;
+    line-height:45px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
